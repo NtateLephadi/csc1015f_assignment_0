@@ -1,0 +1,9 @@
+w1 = eval(input("Enter width 1: "))
+h1 = eval(input("Enter height 1: "))
+w2 = eval(input("Enter width 2: "))
+h2 = eval(input("Enter height 2: "))
+price_per_meter = eval(input("Enter price per metre: "))
+total_fence_required = 2 * w1 + 2 * h1 - h2 + 2 * w2 + h2
+total_price = price_per_meter * total_fence_required
+print("The total fence required = " + str(total_fence_required) + " meters")
+print("The total price = R " + str(total_price))
